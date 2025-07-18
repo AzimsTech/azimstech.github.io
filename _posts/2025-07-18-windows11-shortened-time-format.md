@@ -10,9 +10,8 @@ image:
 
 Since Microsoft has [abandoning the ship](https://x.com/zacbowden/status/1943829158238298488), here's a manual way to retain the shortened date and time format.
 
-![show-abbreviated-time-date-setting.png](show-abbreviated-time-date-setting.png)
+![show-abbreviated-time-date-setting.png](show-abbreviated-time-date-setting.png){: .w-50 .right}
 
-## Backups
 Okay, before we start, make sure we have a backup of the old format.  
 Use the following commands to retrieve the current values of `sShortTime` and `sShortDate`:  
 
