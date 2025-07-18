@@ -2,18 +2,22 @@
 layout: page
 title: "404: Page not found"
 permalink: /404.html
+
+redirect_from:
+- /norobots/
+- /assets/
+- /posts/
 ---
 
 {% include lang.html %}
 
-<p class="lead">{{ site.data.locales[lang].not_found.statement }}</p>
+<h1><u>404: Page Not Found</u></h1>
+<h2>The page you tried to open is missing :(</h2>
+
+<h1>Redirecting to <a href="/">Home Page</a></h1>
 
 <script>
-    window.onload = () => {
-        currentURL = window.location.href;
-        lowerCaseURL = currentURL.toLowerCase();
-        if (currentURL != lowerCaseURL) {
-            location.replace(lowerCaseURL);
-        }
-    };
+    setTimeout(function () {
+        window.location.href = "/";
+    }, 2000); 
 </script>
