@@ -43,5 +43,5 @@ To restore back to Defaults
  reg add "HKCU\Control Panel\International" /v sShortDate /t REG_SZ /d "d/M/yyyy" /f
 ```
 
-> [!NOTE]  
 > This time and date format is for Malaysian Standard Time (MST). Yours might be a little different, so change accordingly.
+{: .prompt-info }
