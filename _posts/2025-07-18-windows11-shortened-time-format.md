@@ -5,7 +5,7 @@ categories: How-to
 tags: [windows]     # TAG names should always be lowercase
 media_subpath: /azimstech.github.io/
 image:
-  path: time-date-format-preview.png
+  path: time-date-format-preview-out.png
 ---
 
 ![show-abbreviated-time-date-setting.png](show-abbreviated-time-date-setting.png){: .right }
