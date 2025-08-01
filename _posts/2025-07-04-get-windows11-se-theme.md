@@ -9,9 +9,9 @@ image:
   path: 11se.png
 ---
 
+![preview](win-11-se-themes.png){: width="972" height="589" .w-50 .right}
 Many people may not know about Windows 11 SE. It is a special edition that was introduced in 2021 and comes preinstalled on the Surface Laptop SE.  
 
-![preview](win-11-se-themes.png){: width="972" height="589" .w-50 .right}
 It is designed to run on inexpensive, low-end laptops for students from kindergarten through 12th grade. It is basically Microsoft's answer to Chromebooks.  
 
 It is set to be discontinued in October 2026. If you would like to learn more about Windows 11 SE, [click here](https://archive.is/2Be3J).  
@@ -35,6 +35,3 @@ Here's command undo it:
 ```console
 reg delete "HKLM\SOFTWARE\Microsoft\PolicyManager\current\device\Education" /f
 ```
-## Theme preview
-
-![themes screenshot](11se-themes.png)
