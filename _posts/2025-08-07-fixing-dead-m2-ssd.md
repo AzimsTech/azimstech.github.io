@@ -1,6 +1,6 @@
 ---
 title: How I Brought a “Dead” M.2 SSD Back to Life
-date: 2025-08-07 23:00:00 +0800
+date: 2025-08-07 20:00:00 +0800
 categories: Tech-blog
 tags: [hardware]     # TAG names should always be lowercase
 media_subpath: /azimstech.github.io/
