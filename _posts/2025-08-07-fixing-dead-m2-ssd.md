@@ -20,8 +20,8 @@ The first thing I did was check the BIOS, and right away I noticed the problem: 
 I disassembled the laptop to inspect the M.2 SSD. At first, everything looked normal. But then I noticed something odd…  
 There was a small burn mark on the SSD sticker. I peeled it back and found a tiny component, likely a capacitor, that burned to a crisp.
 
-![burned-sticker](burned-sticker.jpg){: .normal .mw-25 .me-2}
-![peeled-sticker](peeled-sticker.jpg){: .normal .mw-25 }
+![burned-sticker](burned-sticker.jpg){:  w="281" h="379" .normal }
+![peeled-sticker](peeled-sticker.jpg){:  w="281" h="379" .normal }
 
 ---
 
