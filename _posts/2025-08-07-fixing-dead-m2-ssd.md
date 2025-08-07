@@ -19,13 +19,13 @@ The first thing I did was check the BIOS, and right away I noticed the problem: 
 
 I disassembled the laptop to inspect the M.2 SSD. At first, everything looked normal. But then I noticed something odd…
 
-![burned-sticker](https://lh3.googleusercontent.com/pw/AP1GczN2AVCxaG-ADZs8f7a6sHecHFkO3OqIe4JJy5oo2ksELXLghgnRB6ntJvp5N_LIVSZ4kjBUvGD1Vf6_FAdbS9xIB6uS08z0wOZTStdjXSfDbe-usAjIzvI2BUsZQZSLwYYo3fPiAdeCjP2R_aBG92Lm3w=w701-h945-s-no-gm?authuser=0){: w="700" h="400" }
+![burned-sticker](https://lh3.googleusercontent.com/pw/AP1GczN2AVCxaG-ADZs8f7a6sHecHFkO3OqIe4JJy5oo2ksELXLghgnRB6ntJvp5N_LIVSZ4kjBUvGD1Vf6_FAdbS9xIB6uS08z0wOZTStdjXSfDbe-usAjIzvI2BUsZQZSLwYYo3fPiAdeCjP2R_aBG92Lm3w=w701-h945-s-no-gm?authuser=0){: w="281" h="379" }
 
 
 
 There was a small burn mark on the SSD sticker. I peeled it back and found a tiny component, likely a capacitor, that burned to a crisp.
 
-![peeled-sticker](https://lh3.googleusercontent.com/pw/AP1GczOhNX2svhSL_lgmS2uQ-oThybFGgsqk4nFMu3OgLS__H6NkFfGhejbIANoU7yi4Nz06vhhFYlkaW-lOkIRtc2pA5ahfKMidHgdfodifGdvajyCC-Lqt44DPY9fquTsPxiKMUHABKTR79J4YGZK8S6T1Uw=w701-h945-s-no-gm?authuser=0){: w="700" h="400" }
+![peeled-sticker](https://lh3.googleusercontent.com/pw/AP1GczOhNX2svhSL_lgmS2uQ-oThybFGgsqk4nFMu3OgLS__H6NkFfGhejbIANoU7yi4Nz06vhhFYlkaW-lOkIRtc2pA5ahfKMidHgdfodifGdvajyCC-Lqt44DPY9fquTsPxiKMUHABKTR79J4YGZK8S6T1Uw=w701-h945-s-no-gm?authuser=0){: w="281" h="379" }
 
 ---
 
