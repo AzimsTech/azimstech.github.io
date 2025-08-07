@@ -2,7 +2,7 @@
 title: How I Install Jellyfin on Samsung TV
 description: Running TizenOS 6.0
 date: 2025-06-21 15:00:00 +0800
-categories: How-to, Tizen]
+categories: [How-to, Tizen, Jellyfin]
 tags: [jellyfin]     # TAG names should always be lowercase
 media_subpath: /azimstech.github.io/
 image:

@@ -1,7 +1,7 @@
 ---
 title: Bring back the shortened date and time format in Windows 11
 date: 2025-07-18 23:00:00 +0800
-categories: How-to
+categories: [How-to, Software, Windows]
 tags: [windows]     # TAG names should always be lowercase
 media_subpath: /azimstech.github.io/
 image:

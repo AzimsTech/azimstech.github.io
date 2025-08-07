@@ -2,7 +2,7 @@
 title: How to Unlock Windows 11 SE's Exclusive Themes
 description: Before It's Gone
 date: 2025-07-3 00:00:00 +0800
-categories: How-to
+categories: [How-to, Software, Windows]
 tags: [windows]     # TAG names should always be lowercase
 media_subpath: /azimstech.github.io/
 image:

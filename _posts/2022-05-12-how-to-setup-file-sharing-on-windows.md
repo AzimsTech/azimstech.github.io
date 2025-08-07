@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-categories: How-to
+categories: [How-to, Software, Windows]
 subtitle: on Windows 10/11
 title: How to Setup Network File Sharing?
 media_subpath: /azimstech.github.io/

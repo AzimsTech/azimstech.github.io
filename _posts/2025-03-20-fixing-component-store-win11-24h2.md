@@ -1,9 +1,7 @@
 ---
 title: Fixing Component Store (WinSxS folder) in Windows 11 24H2
 date: '2025-03-20 21:00:00 +0800'
-categories:
-  - How-to
-  - Software
+categories: [How-to, Software, Windows]
 media_subpath: /azimstech.github.io/
 image:
   path: windows11-update-cover.png
