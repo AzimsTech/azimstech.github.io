@@ -4,8 +4,6 @@ date: '2025-03-20 21:00:00 +0800'
 categories:
   - How-to
   - Software
-tags:
-  - win11
 media_subpath: /azimstech.github.io/
 image:
   path: windows11-update-cover.png

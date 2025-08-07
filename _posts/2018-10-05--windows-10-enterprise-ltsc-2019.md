@@ -6,9 +6,6 @@ subtitle: The Latest Feb Re-release ISO (17763.316) Download Link is Updated!
 cover-img: >-
   https://www.windowslatest.com/wp-content/uploads/2018/06/Windows-10-June-Update.jpg
 share-img: 'https://i.imgur.com/QuHTJZf.png'
-tags:
-  - Windows 10
-  - LTSB/LTSC
 permalink: /2018-10-05-windows-10-enterprise-ltsc-2019/
 date: '2020-01-07'
 ---

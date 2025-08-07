@@ -2,17 +2,11 @@
 layout: post
 published: true
 title: This is Why I Stopped Using The Google Drive App
-Tags:
-  - Apps
-  - Android
 media_subpath: /azimstech.github.io/
 image:
   path: jPxTDKW.png
   alt:
 subtitle: Manage Your Google Drive Storage Directly From File Explorer
-tags:
-  - Apps
-  - Android
 ---
 If you are frequent **Google Drive** user, the app I will introduced to you will save you hundreds of hours. Unlike the official Google Drive app, you can manage your offline files in your phone as well as files in your Google Drive account in one place by using this app.
 

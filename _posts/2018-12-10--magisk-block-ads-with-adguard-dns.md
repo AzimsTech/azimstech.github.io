@@ -5,9 +5,6 @@ title: '[Magisk] Block Ads With AdGuard-DNSCrypt Module'
 subtitle: Hosts file ad-blocking alternative
 date: '2018-12-10'
 share-img: 'https://i.imgur.com/0etFpkn.png'
-tags:
-  - Android
-  - Magisk
 ---
 ### Large hosts file will causes massive performance loss, AdGuard DNS is the solution!
 

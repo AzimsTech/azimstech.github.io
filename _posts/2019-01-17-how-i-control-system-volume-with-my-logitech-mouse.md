@@ -3,9 +3,6 @@ layout: post
 published: true
 title: How I Control System Volume With My Mouse
 subtitle: Simple trick I use
-tags:
-  - Tips
-  - Windows
 media_subpath: /azimstech.github.io/
 image:
   path: pVN3hAo.png

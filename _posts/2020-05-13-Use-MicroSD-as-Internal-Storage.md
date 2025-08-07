@@ -4,11 +4,6 @@ published: true
 title: Use SD Card as Internal Storage
 subtitle: Here’s how to do it
 date: '2021-07-07'
-tags:
-  - Android
-  - Magisk
-  - How-to
-  
 share-img: 'https://imgur.com/nJLFumY.png'
 
 ---

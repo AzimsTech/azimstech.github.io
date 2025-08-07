@@ -4,8 +4,6 @@ published: true
 title: Visual C++ Runtime Installer v56!
 subtitle: Updated the 2017 runtimes.
 date: '2018-10-06'
-Tags:
-  - Utilities
 ---
 The 2017 runtimes are rebranded and updated 2015 runtimes, therefore separate installation of 2015 runtimes is not required.
 

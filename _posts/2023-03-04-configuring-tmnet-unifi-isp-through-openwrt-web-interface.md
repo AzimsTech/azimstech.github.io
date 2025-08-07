@@ -5,9 +5,6 @@ media_subpath: /tmnet_unifi-openwrt-setup/
 image:
   path: owrt.png
   alt:
-tags:
-  - OpenWrt
-  - Networking
 title: Configuring TMNet UniFi ISP through OpenWrt Web Interface
 ---
 UniFi is a popular internet service provider in Malaysia, and OpenWrt is a free and open-source firmware for routers that allows for greater control and customization. This tutorial will guide you through the process of configuring UniFi on your OpenWrt router using the web interface.

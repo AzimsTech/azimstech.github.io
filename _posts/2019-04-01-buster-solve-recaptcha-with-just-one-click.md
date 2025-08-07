@@ -3,10 +3,6 @@ layout: post
 published: true
 title: Buster - Solve reCAPTCHA With Just One Click!
 subtitle: A Time-saving Browser Extension
-tags:
-  - Browser Extension
-  - Chrome
-  - Firefox
 share-img: 'https://i.redd.it/pwlxn1u9dxt11.jpg'
 ---
 Websites have been using CAPTCHAs as a means to differentiate between actual users and bots since the early days of the Internet, but it can be really annoying when you need to do it every single time.

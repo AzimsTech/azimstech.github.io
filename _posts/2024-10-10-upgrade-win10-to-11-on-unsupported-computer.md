@@ -4,8 +4,6 @@ description: Without using a third-party program
 author: null
 date: '2024-10-10 07:20:00 +0800'
 categories: [How-to, Software, Windows]
-tags:
-  - Windows
 pin: false
 math: false
 mermaid: false

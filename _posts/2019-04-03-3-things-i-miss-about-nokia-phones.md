@@ -2,17 +2,11 @@
 layout: post
 published: true
 title: 3 Things I Miss About Old Nokia phones
-Tags:
-  - List
-  - Nostalgia
 media_subpath: /azimstech.github.io/
 image:
   path: RJ7Va71.png
   alt:
 subtitle: Cool Old Nokia Design Choices
-tags:
-  - List
-  - Nostalgia
 ---
 Growing up I used to see various **Nokia** phones models used by family and friends or on the internet. Before owning an Android phone, I've been using a variety of Nokia phones as my "mobile computers" to surf the internet and as a **media player**. There a few **features** I wish smartphones nowadays taken from old Nokia models.
 

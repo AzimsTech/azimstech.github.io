@@ -7,9 +7,6 @@ media_subpath: /azimstech.github.io/
 image:
   path: openwrt-cli.png
   alt:
-tags:
-  - OpenWrt
-  - Networking
 permalink: /2023-02-22-tmnet-unifi-with-openwrt-22.03.x-dsa/
 date: '2023-02-22'
 ---

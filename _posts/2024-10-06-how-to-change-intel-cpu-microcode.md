@@ -5,8 +5,6 @@ author: null
 date: '2024-10-07 07:20:00 +0800'
 categories:
   - Tips
-tags:
-  - PC
 pin: false
 math: false
 mermaid: false
