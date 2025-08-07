@@ -39,8 +39,6 @@ My guess? That burned capacitor was causing a short and preventing the drive fro
 
 To test the theory, I gently pulled the damaged component out using a pair of pliers.
 
-**\[Optional Picture: Component removed]**
-
 Then I reinserted the SSD into the laptop and powered it on.
 
 Boom! **the SSD was detected in BIOS again.**
