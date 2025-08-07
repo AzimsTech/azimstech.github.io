@@ -5,7 +5,7 @@ categories: Tech-blog
 tags: [hardware]     # TAG names should always be lowercase
 media_subpath: /azimstech.github.io/
 image:
-  path: fixing-dead-m2-ssd-tb.png
+  path: fixing-dead-m2-ssd.png
 ---
 
 ---

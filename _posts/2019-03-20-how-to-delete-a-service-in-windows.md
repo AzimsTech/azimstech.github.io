@@ -3,9 +3,7 @@ layout: post
 published: true
 title: How to delete a service in Windows?
 share-img: 'https://i.imgur.com/Gpknkm7.png'
-tags:
-  - Windows
-  - How-to
+categories: How-to
 subtitle: Via Command Prompt
 ---
 If for some reason you have a few services that you want to get rid of completely. Here I can show you how to do this step by step.

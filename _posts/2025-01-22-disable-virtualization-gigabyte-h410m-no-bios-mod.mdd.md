@@ -4,8 +4,6 @@ description: Without Flashing Modded BIOS
 author: null
 date: '2025-01-22 1:20:00 +0800'
 categories: [How-to, Software, Hardware]
-tags:
-  - Windows
 pin: false
 math: false
 mermaid: false

@@ -5,8 +5,6 @@ description: The easy way!
 author: null
 date: '2025-01-23 15:00:00 +0800'
 categories: [How-to, Software]
-tags:
-  - Windows
 pin: false
 math: false
 mermaid: false
