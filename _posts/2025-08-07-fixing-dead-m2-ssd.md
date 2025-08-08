@@ -55,7 +55,7 @@ To recap on what I did:
 
 ### ⚠️ Final Thoughts
 
-This kind of fix isn't guaranteed. I figured that if the SSD was dead anyway, what the hell, just pull the capacitor. Well, in this case, it's like it brought that SSD back to life again. It saved the data and the SSD.
+This kind of fix isn't guaranteed. I figured that if the SSD was dead anyway, what the hell, I might as well try. In this case, however, it saved the data and the SSD.
 
 The moral of the story is: If your SSD is "dead," a visual inspection might reveal the problem.
 
