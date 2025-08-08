@@ -8,8 +8,6 @@ image:
   path: fixing-dead-m2-ssd.png
 ---
 
----
-
 A friend came to me recently because his laptop wouldn't boot into Windows at all.  
 The first thing I did was check the BIOS, and right away I noticed the problem: the SSD wasn’t even being detected.
 
