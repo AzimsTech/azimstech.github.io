@@ -1,0 +1,40 @@
+name: Update robots.txt
+
+# When to run
+on:
+  schedule:
+    - cron: '0 0 1 * *'  # First day of every month at midnight UTC
+  workflow_dispatch:  # Allows manual trigger from GitHub UI
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    
+    # Required for the workflow to push changes
+    permissions:
+      contents: write
+    
+    steps:
+      # Get your repo's current files
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      # Download the latest robots.txt
+      - name: Download latest robots.txt
+        run: |
+          curl -o robots.txt https://raw.githubusercontent.com/ai-robots-txt/ai.robots.txt/main/robots.txt
+      
+      # Commit and push if there are changes
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add robots.txt
+          
+          # Only commit if there are changes
+          if git diff --staged --quiet; then
+            echo "No changes to robots.txt"
+          else
+            git commit -m "Update robots.txt from ai-robots-txt/ai.robots.txt"
+            git push
+          fi
