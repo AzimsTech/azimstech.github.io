@@ -8,3 +8,5 @@ order: 4
 - [AzimsTech](https://github.com/AzimsTech)/**[Android_Hacking](https://github.com/AzimsTech/Android_Hacking)**  
 - [AzimsTech](https://github.com/AzimsTech)/**[OpenWrt-Builder](https://github.com/AzimsTech/OpenWrt-Builder)**  
 - [AzimsTech](https://github.com/AzimsTech)/**[TTL-Changer](https://github.com/AzimsTech/TTL-Changer)**  
+- [AzimsTech](https://github.com/AzimsTech)/**[YTReVanced-Builder](https://github.com/AzimsTech/YTReVanced-Builder)**  
+- [AzimsTech](https://github.com/AzimsTech)/**[currency-converter](https://github.com/AzimsTech/currency-converter)**  
