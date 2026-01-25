@@ -26,7 +26,7 @@ Outdated GPU firmware can’t handle the DisplayPort standard until the OS loads
 
 ## The Fix (Step-by-Step):
 
-1. **Download NVIDIA’s Firmware Update Tool:**  ![alt text](https://cdn.statically.io/gh/AzimsTech/compress/master/azimstech.github.io/image-2.png){: width="972" height="589" .w-50 .right .shadow .rounded-10 }   
+1. **Download NVIDIA’s Firmware Update Tool:**  ![alt text](image-2.png){: width="972" height="589" .w-50 .right .shadow .rounded-10 }   
 [Get it here](https://www.nvidia.com/en-us/drivers/nv-uefi-update-x64/).
 
 2. **Run the Tool:**  
