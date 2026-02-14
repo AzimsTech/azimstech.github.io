@@ -31,7 +31,7 @@ image:
 - `Ctrl` + `F` → GUID → `3C1DE39F-D207-408A-AACC-731CFB7F1DD7`  
   ![search GUID](image.png)
 - **Double-click** on `"GUID pattern "3C1DE39F-D207-408A-AACC-731CFB7F1DD7..."`message below.  
-  ![GUID message](image-1.png){: w="400" }
+  ![GUID message](image-1.png){: w="400" .rounded-10}
 - **Scroll** to the end until you find `"Volume free spa.."`  
   ![Scroll entry](image-2.png)
 - **Right-click** on the last module and select Insert after. Pick the `NvStrapsRebar.ffs` file and click Open.  
