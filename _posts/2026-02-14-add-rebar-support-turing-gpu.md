@@ -8,7 +8,8 @@ media_subpath: /2026-02-14-add-rebar-support-turing-gpu/
 image:
   path: Giga-H410-H-V3-banner.jpg
 ---
-
+NVIDIA Turing GPUs (RTX 20 / GTX 16 series) don’t officially support Resizable BAR (ReBAR).
+While ReBAR is natively supported in PCIe 3.0, it requires GPU and motherboard manufacturers to add BIOS support.
 
 ## What You Need
 
