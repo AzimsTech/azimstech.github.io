@@ -41,6 +41,7 @@ While ReBAR is natively supported in PCIe 3.0, it requires GPU and motherboard m
 - After that, you should see like this  
   ![Inserted](image-4.png){: w="500" .rounded-4}
 - `Ctrl` + `S` to **save** the modified BIOS file.
+- Now, proceed to [the next step.](#2-unlocking-intel-flash-descriptor-readwrite)
 
 ### 2. Unlocking Intel Flash Descriptor Read/Write  
 
@@ -57,7 +58,7 @@ While ReBAR is natively supported in PCIe 3.0, it requires GPU and motherboard m
   setup_var_cv MeSetup 0x3 0x1 0x1
   ```
 
-- Now you can **flash** the modifiled bios in Step 3.
+- Now you can **flash** the modifiled bios in [Step 3.](#3-flashing-the-modified-bios)
 
 ### 3. Flashing the modified BIOS  
 
@@ -75,9 +76,9 @@ While ReBAR is natively supported in PCIe 3.0, it requires GPU and motherboard m
   FPTW64.exe -greset
   ```
 
-- That's it. Continue to Final step.
+- That's it. Continue to [Final step.](#4-activate-rebar)
 
-## 4. Activate ReBar  
+### 4. Activate ReBar  
 
 - **Run** `NvStrapsReBar.exe` as Administrator.
 - **Press** `E` to enable
