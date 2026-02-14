@@ -84,7 +84,7 @@ While ReBAR is natively supported in PCIe 3.0, it requires GPU and motherboard m
 - Then **Press** `S` to save
 - **Reboot**
 - Check the result in `GPU-Z`  
-  ![GPU-Z result](image-6.png){: w="500" .rounded-4}
+  ![GPU-Z result](image-6.png){: .rounded-4}
 
 > This was tested on Gigabyte H410M H V3 (rev. 1.0)  
 > BIOS version: F10b (June 10, 2023)
