@@ -66,7 +66,7 @@ While ReBAR is natively supported in PCIe 3.0, it requires GPU and motherboard m
 
 - **Go to** `CSME System Tools v15.0 r15\Flash Programming Tool\WIN64`
 - **Right click** → `Ctrl` + `Shift` + **Click** `Open in Terminal`  
-  ![Open in Terminal](image-5.png){: w="500" .rounded-4}
+  ![Open in Terminal](image-5.png){: .rounded-4}
 - In `Terminal`, **type** the command below:
 
   ```console
