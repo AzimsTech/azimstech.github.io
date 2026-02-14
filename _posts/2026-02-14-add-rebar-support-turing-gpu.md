@@ -9,6 +9,7 @@ image:
   path: Giga-H410-H-V3-banner.jpg
 ---
 
+
 ## What You Need
 
 - [BIOS file from Gigabyte](https://www.aorus.com/en-my/motherboards/H410M-H-V3-rev-10/Support)
@@ -59,6 +60,9 @@ image:
 
 ### 3. Flashing the modified BIOS  
 
+> Flashing a modified BIOS can permanently brick your device. Proceed at your own risk.
+{: .prompt-danger }
+
 - **Go to** `CSME System Tools v15.0 r15\Flash Programming Tool\WIN64`
 - **Right click** → `Ctrl` + `Shift` + **Click** `Open in Terminal`  
   ![Open in Terminal](image-5.png){: w="500" .rounded-4}
@@ -80,3 +84,7 @@ image:
 - **Reboot**
 - Check the result in `GPU-Z`  
   ![GPU-Z result](image-6.png){: w="500" .rounded-4}
+
+> This was tested on Gigabyte H410M H V3 (rev. 1.0)  
+> BIOS version: F10b (June 10, 2023)
+{: .prompt-info }
