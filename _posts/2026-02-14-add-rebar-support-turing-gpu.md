@@ -1,6 +1,6 @@
 ---
 title: Adding Resizable BAR (ReBAR) support to NVIDIA Turing GPUs 
-description: on Gigabyte H410M H V3
+description: on a Gigabyte H410M H V3
 date: 2026-02-14 20:00:00 +0800
 categories: [How-to, Software, Hardware]
 tags: [hardware]     # TAG names should always be lowercase
