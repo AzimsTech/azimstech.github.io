@@ -31,13 +31,13 @@ image:
 - `Ctrl` + `F` → GUID → `3C1DE39F-D207-408A-AACC-731CFB7F1DD7`  
   ![search GUID](image.png){: .rounded-4}
 - **Double-click** on `"GUID pattern "3C1DE39F-D207-408A-AACC-731CFB7F1DD7..."`message below.  
-  ![GUID message](image-1.png){: w="400" .rounded-4}
+  ![GUID message](image-1.png){: w="500" .rounded-4}
 - **Scroll** to the end until you find `"Volume free spa.."`  
-  ![Scroll entry](image-2.png){: w="400" .rounded-4}
+  ![Scroll entry](image-2.png){: w="500" .rounded-4}
 - **Right-click** on the last module and select Insert after. Pick the `NvStrapsRebar.ffs` file and click Open.  
-  ![Insert after](image-3.png){: w="400" .rounded-4}
+  ![Insert after](image-3.png){: w="500" .rounded-4}
 - After that, you should see like this  
-  ![Inserted](image-4.png){: w="400" .rounded-4}
+  ![Inserted](image-4.png){: w="500" .rounded-4}
 - `Ctrl` + `S` to **save** the modified BIOS file.
 
 ### 2. Unlocking Intel Flash Descriptor Read/Write  
@@ -61,7 +61,7 @@ image:
 
 - **Go to** `CSME System Tools v15.0 r15\Flash Programming Tool\WIN64`
 - **Right click** → `Ctrl` + `Shift` + **Click** `Open in Terminal`  
-  ![Open in Terminal](image-5.png){: w="400" .rounded-4}
+  ![Open in Terminal](image-5.png){: w="500" .rounded-4}
 - In `Terminal`, **type** the command below:
 
   ```console
@@ -79,4 +79,4 @@ image:
 - Then **Press** `S` to save
 - **Reboot**
 - Check the result in `GPU-Z`  
-  ![GPU-Z result](image-6.png){: w="400" .rounded-4}
+  ![GPU-Z result](image-6.png){: w="500" .rounded-4}
