@@ -11,7 +11,7 @@ image:
 NVIDIA Turing GPUs (RTX 20 / GTX 16 series) don’t officially support Resizable BAR (ReBAR).
 While ReBAR is natively supported in PCIe 3.0, it requires GPU and motherboard manufacturers to add BIOS support.
 
-## 🖥️ My Setup
+## 🖥️ My Test Setup
 
 - Motherboard: Gigabyte H410M H V3 (rev. 1.0)
 - BIOS: F10b (June 10, 2023)
@@ -92,10 +92,9 @@ While ReBAR is natively supported in PCIe 3.0, it requires GPU and motherboard m
 - Then **Press** `S` to save
 - **Reboot**
 
-## ❓ Did it work?
+## ❓Did it work?
 
-Absolutely!
-- Check the result in `GPU-Z`  
+Absolutely! Here's the result in `GPU-Z`  
   ![GPU-Z result](image-6.png){: .rounded-4}
 
 > This was tested on Gigabyte H410M H V3 (rev. 1.0)  
