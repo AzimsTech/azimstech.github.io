@@ -45,7 +45,7 @@ While ReBAR is natively supported in PCIe 3.0, it requires GPU and motherboard m
 
 ### 2. Unlocking Intel Flash Descriptor Read/Write  
 
-  You have to do this for Gigabyte motherboard because it prevents you to flash modifiled BIOS official way.
+  You have to do this for Gigabyte motherboard because it prevents you to flash modified BIOS official way.
 
 - **Install** `Ventoy` in your USB drive
 - **Copy & Paste** `modGRUBShell.efi` in Ventoy USB drive
@@ -58,7 +58,7 @@ While ReBAR is natively supported in PCIe 3.0, it requires GPU and motherboard m
   setup_var_cv MeSetup 0x3 0x1 0x1
   ```
 
-- Now you can **flash** the modifiled bios in [Step 3.](#3-flashing-the-modified-bios)
+- Now you can **flash** the modified bios in [Step 3.](#3-flashing-the-modified-bios)
 
 ### 3. Flashing the modified BIOS  
 
