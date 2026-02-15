@@ -1,5 +1,5 @@
 ---
-title: Adding Resizable BAR (ReBAR) support to NVIDIA Turing GPUs 
+title: Here's how I added Resizable BAR (ReBAR) support to NVIDIA Turing GPUs 
 description: on a Gigabyte H410M H V3
 date: 2026-02-14 20:00:00 +0800
 categories: [How-to, Software, Hardware]
@@ -11,7 +11,14 @@ image:
 NVIDIA Turing GPUs (RTX 20 / GTX 16 series) don’t officially support Resizable BAR (ReBAR).
 While ReBAR is natively supported in PCIe 3.0, it requires GPU and motherboard manufacturers to add BIOS support.
 
-## What You Need
+## 🖥️ My Setup
+
+- Motherboard: Gigabyte H410M H V3 (rev. 1.0)
+- BIOS: F10b (June 10, 2023)
+- GPU: ASUS PHOENIX GTX 1650 OC GDDR6
+- CPU: Intel Core i3-10100
+
+## 📋 Preparation
 
 - [BIOS file from Gigabyte](https://www.aorus.com/en-my/motherboards/H410M-H-V3-rev-10/Support)
 - [CSME System Tools v15.0 r15.rar](https://mega.nz/folder/qdVAyDSB#FLCPaDVIsPYiy2TAUjD7RQ)
@@ -24,7 +31,7 @@ While ReBAR is natively supported in PCIe 3.0, it requires GPU and motherboard m
   
 ---
 
-## Steps
+## 📃 Steps
 
 ### 1. Adding NvStrapsRebar FFS module
 
@@ -84,6 +91,10 @@ While ReBAR is natively supported in PCIe 3.0, it requires GPU and motherboard m
 - **Press** `E` to enable
 - Then **Press** `S` to save
 - **Reboot**
+
+## ❓ Did it work?
+
+Absolutely!
 - Check the result in `GPU-Z`  
   ![GPU-Z result](image-6.png){: .rounded-4}
 
