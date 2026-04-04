@@ -5,19 +5,19 @@ order: 5
 ---
 
 <head>
+    <script>
+        (function() {
+            var url = window.location.href;
+            var lower = url.toLowerCase();
+            if (url !== lower) {
+                window.location.replace(lower);
+            }
+        })();
+    </script>
     <meta charset="utf-8">
     <title>Redirecting to MySoftwareList</title>
     <meta http-equiv="refresh" content="0; url=https://azimstech.github.io/MySoftwareList/">
     <link rel="canonical" href="https://azimstech.github.io/MySoftwareList/">
-    <script>
-        window.onload = () => {
-            currentURL = window.location.href;
-            lowerCaseURL = currentURL.toLowerCase();
-            if (currentURL != lowerCaseURL) {
-                location.replace(lowerCaseURL);
-            }
-        };
-    </script>
 </head>
 
 <p>Redirecting to MySoftwareList...</p>
