@@ -22,19 +22,19 @@ jobs:
       # Download the latest robots.txt
       - name: Download latest robots.txt
         run: |
-          curl -o robots.txt https://raw.githubusercontent.com/ai-robots-txt/ai.robots.txt/main/robots.txt
+          curl -o _site/robots.txt https://raw.githubusercontent.com/ai-robots-txt/ai.robots.txt/main/robots.txt
       
       # Commit and push if there are changes
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add robots.txt
+          git add _site/robots.txt
           
           # Only commit if there are changes
           if git diff --staged --quiet; then
-            echo "No changes to robots.txt"
+            echo "No changes to _site/robots.txt"
           else
-            git commit -m "Update robots.txt from ai-robots-txt/ai.robots.txt"
+            git commit -m "Update _site/robots.txt from ai-robots-txt/ai.robots.txt"
             git push
           fi
