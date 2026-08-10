@@ -10,6 +10,19 @@
 
 /* append your custom style below */
 
+#main-wrapper {
+  font-family: "Roboto Slab", sans-serif;
+}
+
+#main-wrapper h1,
+#main-wrapper h2,
+#main-wrapper h3,
+#main-wrapper h4,
+#main-wrapper h5,
+#main-wrapper h6 {
+  font-family: "Roboto Slab", sans-serif;
+}
+
 #sidebar {
   --site-title-color: #e8e6e3;
   --site-subtitle-color: #a8a095;
