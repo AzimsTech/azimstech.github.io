@@ -124,5 +124,17 @@ Component Store Cleanup Recommended : No
 The operation completed successfully
 ```
 
+## Extra: Removing Stubborn 190 MB of Windows Update Cleanup
+
+There's a bug where, no matter how many times you clean Windows Update Cleanup from System → Storage → Temporary files, the 190 MB keeps popping up.
+
+![Settings](https://github.com/user-attachments/assets/0381d473-a1ea-4e86-810b-bb05b76febe5){: w="500" .rounded-4}
+
+This can be fixed by running this command:
+
+```console
+Dism.exe /Online /Cleanup-Image /AnalyzeComponentStore
+```
+
 ## Research
 - [@Bree - ElevenForum.com](https://www.elevenforum.com/t/how-to-identify-reclaimable-packages-reported-as-count-by-dism-online-cleanup-image-analyzecomponentstore.30344/post-575823)
