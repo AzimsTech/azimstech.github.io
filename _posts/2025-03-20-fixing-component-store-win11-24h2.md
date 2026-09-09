@@ -133,7 +133,7 @@ There's a bug where, no matter how many times you clean Windows Update Cleanup f
 This can be fixed by running this command:
 
 ```console
-Dism.exe /Online /Cleanup-Image /AnalyzeComponentStore
+Dism.exe /online /Cleanup-Image /StartComponentCleanup /ResetBase
 ```
 
 ## Research
