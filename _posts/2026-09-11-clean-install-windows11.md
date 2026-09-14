@@ -8,7 +8,6 @@ tags: [windows]
 media_subpath: /azimstech.github.io/
 image:
   path: install-win11-cover.png
-  alt: Cover
 ---
 
 ## Objectives
