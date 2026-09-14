@@ -24,21 +24,21 @@ image:
 4. Right-click a volume → **Shrink Volume...** → **Shrink** → Note the drive letter of the new partition, e.g., `G:`
 5. Navigate to the ISO drive:
 
-```console
-cd F:\boot
-```
+    ```console
+    cd F:\boot
+    ```
 
 6. Make the new partition bootable:
 
-```console
-bootsect /nt60 G:
-```
+    ```console
+    bootsect /nt60 G:
+    ```
 
 7. Copy all files from the ISO to the new partition:
 
-```console
-xcopy F:*.* G: /E /F /H
-```
+    ```console
+    xcopy F:*.* G: /E /F /H
+    ```
 
     > `F:` = mounted ISO, `G:` = new partition
     {: .prompt-info }
@@ -48,15 +48,15 @@ xcopy F:*.* G: /E /F /H
 1. On the **"Is this the right country or region?"** screen, press `Shift + F10` to open **Command Prompt**
 2. Type the following command and press `Enter`. Your computer will reboot:
 
-```console
-OOBE\BYPASSNRO
-```
+    ```console
+    OOBE\BYPASSNRO
+    ```
 
 3. Make sure the computer is offline. If not, press `Shift + F10` and type:
 
-```console
-ipconfig /release
-```
+    ```console
+    ipconfig /release
+    ```
 
     > You can just unplug the Ethernet cable and skip this step.
     {: .prompt-tip }
