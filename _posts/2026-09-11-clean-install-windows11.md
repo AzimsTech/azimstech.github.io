@@ -36,7 +36,8 @@ image:
 
         xcopy F:*.* G: /E /F /H
 
-    > **NOTE:** `F:` = mounted ISO, `G:` = new partition
+    > `F:` = mounted ISO, `G:` = new partition
+    {: .prompt-info }
 
 ## Install Windows 11 Without Bloat & Microsoft Account
 
@@ -49,8 +50,10 @@ image:
 
         ipconfig /release
 
-    > **NOTE:** You can just unplug the Ethernet cable and skip this step.
+    > You can just unplug the Ethernet cable and skip this step.
+    {: .prompt-tip }
 4. On the **"Is this the right country or region?"** screen, select **German** again:
-    > **INFO:** We choose German because it forces Windows to comply with EEA laws, which prevent Windows from installing bloatware and let you uninstall the Edge browser.
+    > We choose German because it forces Windows to comply with EEA laws, which prevent Windows from installing bloatware and let you uninstall the Edge browser.
     > Don't worry, you can change this later in **Settings**.
+    {: .prompt-info }
 5. Follow the setup prompts and be sure to click **"I don’t have internet"** and **"Continue with limited setup"**.
