@@ -53,7 +53,7 @@ image:
     OOBE\BYPASSNRO
     ```
 
-3. Make sure the computer is offline. If not, press `Shift + F10` and type:
+3. To make sure the computer is offline, press `Shift + F10` and type:
 
     ```console
     ipconfig /release
@@ -61,7 +61,7 @@ image:
 
     > You can just unplug the Ethernet cable and skip this step.
     {: .prompt-tip }
-4. On the **"Is this the right country or region?"** screen, select **German** again:
+4. On the **"Is this the right country or region?"** screen, select **German**:
     > We choose German because it forces Windows to comply with EEA laws, which prevent Windows from installing bloatware and let you uninstall the Edge browser.
     > Don't worry, you can change this later in **Settings**.
     {: .prompt-info }
