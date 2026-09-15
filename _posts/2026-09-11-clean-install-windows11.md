@@ -45,7 +45,8 @@ image:
 
 ## Install Windows 11 Without Bloat & Microsoft Account
 
-1. On the **"Is this the right country or region?"** screen, press `Shift + F10` to open **Command Prompt**
+1. On the **"Is this the right country or region?"** screen, press `Shift + F10` to open **Command Prompt**  
+![image](oobe 1.png)
 2. Type the following command and press `Enter`. Your computer will reboot:
 
     ```console
