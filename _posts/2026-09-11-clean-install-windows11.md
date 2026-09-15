@@ -1,6 +1,6 @@
 ---
 title: Clean Install Windows 11 My Way
-description: Simple & Clean
+description: No Bloatware, No Microsoft Account. Just a Clean Windows 11
 date: 2026-09-11 11:33:00 +0800
 categories: [How-to, Windows]
 tags: [windows]
