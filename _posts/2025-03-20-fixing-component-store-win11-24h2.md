@@ -5,6 +5,7 @@ categories: [How-to, Software, Windows]
 media_subpath: /azimstech.github.io/
 image:
   path: windows11-update-cover.png
+published: false
 ---
 
 ## Problem
