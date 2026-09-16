@@ -19,7 +19,7 @@ This method lets you fresh-install Windows 11 directly from an internal drive. N
 
 ## Prepare Windows 11 Installer Partition
 
-1. [Download Windows 11 ISO](https://www.microsoft.com/en-us/software-download/windows11#:~:text=Download%20Now-,Download%20Windows%2011%20Disk,unlock%20the%20correct%20edition.,-Windows%2011%20ISOs)
+1. [Download Windows 11 ISO](https://www.microsoft.com/en-us/software-download/windows11#:~:text=Download%20Now-,Download%20Windows%2011%20Disk,unlock%20the%20correct%20edition.,-Windows%2011%20ISOs){:target="_blank"}
 2. Mount the ISO and note the drive letter, e.g., `F:`
 3. Press `Win + X`, then open **Disk Management**
 4. Right-click a volume → **Shrink Volume...** → **Shrink** → Note the drive letter of the new partition, e.g., `G:`
