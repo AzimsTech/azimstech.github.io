@@ -50,21 +50,32 @@ While ReBAR is natively supported in PCIe 3.0, it requires GPU and motherboard m
 - `Ctrl` + `S` to **save** the modified BIOS file.
 - Now, proceed to [the next step.](#2-unlocking-intel-flash-descriptor-readwrite)
 
-### 2. Unlocking Intel Flash Descriptor Read/Write  
+### 2. Unlocking Intel Flash Descriptor Read/Write
 
-  You have to do this for Gigabyte motherboard because it prevents you to flash modified BIOS official way.
+You have to do this on Gigabyte motherboards because it prevents you from flashing a modified BIOS the official way.
 
-- **Install** `Ventoy` in your USB drive
-- **Copy & Paste** `modGRUBShell.efi` in Ventoy USB drive
-- **Reboot**
-- **Press** `F12` for boot selection menu and choose Ventoy USB drive
-- choose `modGRUBShell.efi`
-- When EFI shell appear **type** the command below:
+- **Install** `Ventoy` on your USB drive.
+- **Copy & paste** `modGRUBShell.efi` onto the Ventoy USB drive.
+- **Reboot.**
+- **Press** `F12` for the boot selection menu and choose the Ventoy USB drive.
+- Choose `modGRUBShell.efi`.
+- When the EFI shell appears, **type** the commands below:
 
-  ```console
-  setup_var_cv MeSetup 0x3 0x1 0x1
-  ```
+  1. Enable **ME FW Image Re-Flash:**
+     ```console
+     setup_var_cv MeSetup 0x3 0x1 0x1
+     ```
 
+  2. Disable **BIOS Lock:**
+     ```console
+     setup_var_cv PchSetup 0x1C 0x1 0x0
+     ```
+
+  3. Disable **Flash Protection Range Registers (FPRR):**
+     ```console
+     setup_var_cv PchSetup 0x3 0x1 0x0
+     ```
+  
 - Now you can **flash** the modified bios in [Step 3.](#3-flashing-the-modified-bios)
 
 ### 3. Flashing the modified BIOS  
