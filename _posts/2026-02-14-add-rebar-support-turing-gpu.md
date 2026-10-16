@@ -8,8 +8,9 @@ media_subpath: /2026-02-14-add-rebar-support-turing-gpu/
 image:
   path: Giga-H410-H-V3-banner.jpg
 ---
-NVIDIA Turing GPUs (RTX 20 / GTX 16 series) don’t officially support Resizable BAR (ReBAR).
-While ReBAR is natively supported in PCIe 3.0, it requires GPU and motherboard manufacturers to add BIOS support.
+Resizable BAR (ReBAR) boosts FPS in modern games, but officially only RTX 30 series and newer support it. Still, nothing's stopping you from turning it on.
+
+So, I got curious. Here's how I did it.
 
 ## 🖥️ My Test Setup
 
@@ -80,7 +81,7 @@ You have to do this on Gigabyte motherboards because it prevents you from flashi
 
 ### 3. Flashing the modified BIOS  
 
-> Flashing a modified BIOS can permanently brick your device. Proceed at your own risk.
+> FPT does not verify BIOS compatibility. Flashing the wrong BIOS can brick your system. Verify the BIOS file before flashing.
 {: .prompt-danger }
 
 - **Go to** `CSME System Tools v15.0 r15\Flash Programming Tool\WIN64`
